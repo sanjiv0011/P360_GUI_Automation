@@ -1,13 +1,9 @@
 package com.p360.userdesktop.Utilities;
 
 import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -15,7 +11,6 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
@@ -72,16 +67,23 @@ public class ExtentReport implements ITestListener {
         extentTest.log(Status.FAIL, result.getThrowable().getMessage());
         extentTest.log(Status.FAIL,MarkupHelper.createLabel("Test Failed:- "+result.getName(), ExtentColor.RED));
       
-        /*
+       
         // to attach the screenshot to the extent report
         try {
-            String screenshotPath = captureScreen(driver, result.getName());
-            extentTest.fail("Screenshot",
-                    MediaEntityBuilder.createScreenCaptureFromPath(screenshotPath).build());
-        } catch (IOException e) {
-            e.printStackTrace();
+			Thread.sleep(10);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        String screenshotpath = System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+"_Screenshots" +".png";
+        System.out.println("++"+screenshotpath);
+        File f = new File(screenshotpath);
+        
+        if(f.exists())
+        {
+        	extentTest.fail("Screenshot is below: "+extentTest.addScreenCaptureFromPath(screenshotpath));
         }
-       */
+      
 	}
     
     public void onTestSkipped(ITestResult result) {

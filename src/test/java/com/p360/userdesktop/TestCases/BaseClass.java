@@ -86,8 +86,8 @@ public class BaseClass {
 	public String captureScreen(WebDriver driver, String targetName) throws IOException
 	{
 		String repName;
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        repName = "_Screenshots" + timeStamp + ".png";
+		//String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+        repName = "_Screenshots" /*+ timeStamp*/ + ".png";
         screenshot_path = System.getProperty("user.dir")+"//Screenshots//"+targetName+repName;
         
 		TakesScreenshot ts = (TakesScreenshot)driver;

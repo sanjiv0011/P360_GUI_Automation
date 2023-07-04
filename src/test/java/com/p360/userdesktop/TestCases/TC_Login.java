@@ -38,7 +38,7 @@ public class TC_Login extends BaseClass {
 		
 		lgn.clickBtnsubmit();
 		logger.info("Driver clicked on login submit button");
-		Thread.sleep(15000);
+		Thread.sleep(3000);
 		//driver.wait();
 	
 		
@@ -52,7 +52,7 @@ public class TC_Login extends BaseClass {
 		{
 			Thread.sleep(2000);
 			logger.info("Start capturing screenshots");
-			screenshotpath = captureScreen(driver,"test_Login");  // from base class
+			captureScreen(driver,"test_Login");  // from base class
 			
 			
 			logger.info("Screenshot taken");
