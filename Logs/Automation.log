@@ -1,0 +1,299 @@
+
+
+14:33:40.324 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+14:33:42.577 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+14:33:53.897 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+14:33:56.056 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+14:33:57.193 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+14:33:58.273 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+14:34:01.385 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+14:34:05.963 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+14:34:06.419 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+14:56:28.675 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+14:56:28.684 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+14:56:28.686 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.687 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.688 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.688 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.691 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.700 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+14:56:28.709 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+14:56:28.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.713 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.716 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.717 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.718 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.718 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.720 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.721 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.721 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.722 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.723 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.725 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.729 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:56:28.730 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:56:28.739 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\JKL-Maulik\AppData\Local\Temp\testng-eclipse-2074182393\testng-customsuite.xml
+
+14:56:28.765 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+14:56:28.939 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@71ae31b0: 36 ms
+14:56:29.041 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7e985ce9: 102 ms
+14:56:29.067 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@52b56a3e: 25 ms
+14:56:29.099 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3f2ef586: 32 ms
+14:56:29.114 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@18a3962d: 13 ms
+14:56:29.132 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@452ba1db: 18 ms
+14:56:29.133 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2289aca5: 0 ms
+14:57:54.759 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+14:57:55.003 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+14:57:57.212 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+14:58:08.787 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+14:58:11.869 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+14:58:13.021 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+14:58:14.091 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+14:58:17.232 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+14:58:19.573 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+14:58:19.919 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:00:36.744 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:30:07.830 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:30:08.088 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:30:10.566 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:30:21.981 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:30:25.210 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:34:14.147 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:34:14.390 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:34:16.827 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:34:28.297 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:34:30.633 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+15:34:31.775 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+15:34:32.838 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+15:34:35.943 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+15:34:36.341 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+15:34:36.839 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:38:09.468 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:38:09.708 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:38:11.858 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:38:23.228 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:38:25.370 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+15:38:26.508 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+15:38:27.585 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+15:38:30.715 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+15:38:35.650 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+15:38:36.045 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:41:35.048 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:41:35.281 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:41:37.522 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:41:49.190 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:41:51.333 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+15:41:52.504 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+15:41:53.573 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+15:41:56.696 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+15:41:58.882 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+15:41:59.242 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:52:06.928 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:52:07.164 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:52:09.230 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:52:20.842 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:52:23.283 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:54:49.403 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:54:49.656 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:54:51.844 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:55:03.584 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:55:05.717 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+15:55:06.841 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+15:55:07.907 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+15:55:11.013 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+15:55:11.446 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+15:55:11.809 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+15:57:03.061 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:57:03.302 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+15:57:05.457 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+15:57:16.815 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+15:57:18.951 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+15:57:20.111 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+15:57:21.181 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+15:57:24.306 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+15:57:24.707 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+15:57:25.143 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+16:00:16.648 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+16:00:16.897 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+16:00:19.004 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+16:00:30.454 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+16:00:33.991 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+16:01:06.141 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+16:01:06.380 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+16:01:08.490 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+16:01:19.861 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+16:01:22.000 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+16:01:23.135 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+16:01:24.203 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+16:01:27.346 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+16:01:27.765 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+16:01:28.128 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+16:06:25.568 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+16:06:25.820 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+16:06:27.871 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+16:06:39.321 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+16:06:42.000 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+16:34:00.630 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+16:34:00.868 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+16:34:03.047 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+16:34:14.825 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+16:34:17.602 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+16:40:49.545 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+16:40:49.783 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+16:40:51.965 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+16:41:03.999 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+16:41:06.145 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+16:41:07.282 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+16:41:08.345 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+16:41:13.503 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+16:41:15.593 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+16:41:15.984 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:01:42.302 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:01:42.541 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:01:44.674 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:01:56.813 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:02:01.235 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:05:20.095 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:05:20.335 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:05:22.373 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:05:33.716 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:05:36.260 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+17:05:37.397 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+17:05:38.461 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+17:05:43.629 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+17:05:43.630 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+17:05:43.925 [AsyncHttpClient-1-4] WARN  org.asynchttpclient.netty.handler.WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+17:05:44.152 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:14:56.522 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:14:56.756 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:14:57.902 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:15:09.293 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:15:11.447 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+17:15:12.602 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+17:15:13.680 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+17:15:19.004 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+17:15:19.007 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+17:15:19.550 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:46:52.171 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:46:52.413 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:46:54.602 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:47:06.065 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:47:08.614 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:49:27.332 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:49:27.591 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:49:29.686 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:49:41.179 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:49:43.601 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:50:36.856 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:50:37.097 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+17:50:39.209 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+17:50:50.310 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+17:50:52.605 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+17:50:53.740 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+17:50:54.813 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+17:50:59.988 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+17:50:59.989 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+17:51:00.527 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+18:03:00.451 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+18:03:00.686 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+18:03:02.979 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+18:03:14.369 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+18:03:17.121 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+18:09:02.510 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+18:09:02.787 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+18:09:08.590 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+18:09:21.193 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+18:09:24.349 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+18:14:37.477 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+18:14:37.821 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+18:14:41.419 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+18:14:53.213 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+18:14:55.602 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+18:14:56.738 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+18:14:57.810 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+18:15:03.739 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
+18:15:04.215 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
+18:15:05.761 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+18:16:56.753 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+18:16:57.216 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
+18:17:01.229 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
+18:17:13.614 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
+18:17:16.285 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
+18:17:17.425 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
+18:17:18.600 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
+18:17:35.658 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Login success...
+18:17:35.791 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Clicked on the user name
+18:17:38.069 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Clicked on the logout button
+18:17:43.104 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Logout successfully...
+18:17:43.491 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
