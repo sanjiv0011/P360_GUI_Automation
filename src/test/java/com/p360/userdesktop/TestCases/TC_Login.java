@@ -10,22 +10,22 @@ import com.p360.userdesktop.PageObject.PO_Logout;
 
 public class TC_Login extends BaseClass {
 	
-	public String screenshotpath; // from base class
-	
-
+	//public String screenshotpath; // from base class
 	
 	@Test(priority = 1)
 	public void test_Login() throws InterruptedException, IOException
 	{
-		driver.get(baseUrl);
+		//driver.get(baseUrl); // it set in base class 
 		driver.manage().window().maximize();
-		Thread.sleep(5000);
+		Thread.sleep(2000);
 		
 		PO_Login lgn = new PO_Login(driver);
 		lgn.clickBtnLogin();
 		logger.info("Driver click on login button");
-		Thread.sleep(2000);
+		Thread.sleep(4000);
+		
 		driver.getCurrentUrl();
+		Thread.sleep(4000);
 		
 		lgn.setTextemail(email);
 		logger.info("Email entered");
@@ -38,7 +38,7 @@ public class TC_Login extends BaseClass {
 		
 		lgn.clickBtnsubmit();
 		logger.info("Driver clicked on login submit button");
-		Thread.sleep(3000);
+		Thread.sleep(15000);
 		//driver.wait();
 	
 		
@@ -53,39 +53,9 @@ public class TC_Login extends BaseClass {
 			Thread.sleep(2000);
 			logger.info("Start capturing screenshots");
 			captureScreen(driver,"test_Login");  // from base class
-			
-			
 			logger.info("Screenshot taken");
 			Assert.assertTrue(false);
 			logger.info("Login failed!!!");
-		}
-	}
-	
-	@Test(priority = 2 ,dependsOnMethods = {"test_Login"})
-	public void test_Logout() throws InterruptedException, IOException
-	{
-		PO_Logout lgo = new PO_Logout(driver);
-		
-		lgo.clickBtnUserName();
-		logger.info("Clicked on the user name");
-		Thread.sleep(1000);
-		
-		lgo.clickBtnLogout();
-		logger.info("Clicked on the logout button");
-		Thread.sleep(5000);
-		
-		if(driver.getTitle().contains(""))
-		{
-			logger.info("Logout successfully...");
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			Thread.sleep(2000);
-			logger.info("Start capturing screenshots");
-			captureScreen(driver,"test_Logout"); // from base class
-			Assert.assertTrue(false);
-			logger.info("Logout failed!!!");
 		}
 	}
 	

@@ -1,12 +1,43 @@
-20:22:08.318 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+17:24:57.312 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
 
-20:22:08.566 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Base class started...
-20:22:10.800 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Chrome driver selected
-20:22:21.978 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver click on login button
-20:22:24.115 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Email entered
-20:22:25.248 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Passwrod entered
-20:22:26.311 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver clicked on login submit button
-20:22:31.458 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Start capturing screenshots
-20:22:32.846 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Screenshot taken
-20:22:33.378 [main] INFO  com.p360.userdesktop.TestCases.TC_Login - Driver shutdown
+17:24:57.617 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
+17:25:00.075 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
+17:25:14.299 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
+17:25:15.840 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
+17:25:18.020 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
+17:25:19.111 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
+17:25:49.127 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
+17:25:59.215 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
+17:26:04.300 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
+17:26:04.816 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown
+17:28:43.363 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:28:44.059 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
+17:28:46.618 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
+17:29:00.195 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
+17:29:01.657 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
+17:29:03.828 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
+17:29:04.905 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
+17:29:49.914 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
+17:29:59.995 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
+17:30:05.070 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
+17:30:05.588 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown
+17:31:42.638 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+17:31:42.923 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
+17:31:45.562 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
+17:31:59.053 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
+17:32:00.824 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
+17:32:03.007 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
+17:32:04.105 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
+17:32:49.120 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
+17:32:59.207 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
+17:33:04.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
+17:33:06.408 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered new password
+17:33:08.533 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Confirm new password
+17:33:13.633 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on final continue button
+17:33:15.174 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - User sign up successfully...
+17:33:15.619 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown

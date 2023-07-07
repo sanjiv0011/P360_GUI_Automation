@@ -67,14 +67,7 @@ public class ExtentReport implements ITestListener {
         extentTest.log(Status.FAIL, result.getThrowable().getMessage());
         extentTest.log(Status.FAIL,MarkupHelper.createLabel("Test Failed:- "+result.getName(), ExtentColor.RED));
       
-       
-        // to attach the screenshot to the extent report
-        try {
-			Thread.sleep(10);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+        // to attach screen shot on the report
         String screenshotpath = System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+"_Screenshots" +".png";
         System.out.println("++"+screenshotpath);
         File f = new File(screenshotpath);

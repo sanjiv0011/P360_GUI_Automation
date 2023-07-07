@@ -2,9 +2,9 @@ package com.p360.userdesktop.TestCases;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
+/*import java.text.SimpleDateFormat;
 import java.util.Date;
-
+*/
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -16,14 +16,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.github.javafaker.Faker;
 import com.p360.userdesktop.Utilities.ReadConfigFiles;
 
 public class BaseClass {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	// logger to log the messages
 	public Logger logger = LogManager.getLogger(this.getClass());
@@ -39,6 +41,8 @@ public class BaseClass {
 	public String screenshot_path;
 	
 	
+	// to generate random data
+	public Faker faker = new Faker();
 	
 	// to select the driver
 	@Parameters("browser")
@@ -65,6 +69,7 @@ public class BaseClass {
 			driver = new EdgeDriver();
 			logger.info("Edge driver selected");
 		}
+		driver.get(baseUrl);
 		Thread.sleep(5000);
 		
 	}
