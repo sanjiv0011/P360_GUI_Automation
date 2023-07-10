@@ -1,43 +1,32 @@
-17:24:57.312 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+17:57:45.292 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
 
-17:24:57.617 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
-17:25:00.075 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
-17:25:14.299 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
-17:25:15.840 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
-17:25:18.020 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
-17:25:19.111 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
-17:25:49.127 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
-17:25:59.215 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
-17:26:04.300 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
-17:26:04.816 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown
-17:28:43.363 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
-
-17:28:44.059 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
-17:28:46.618 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
-17:29:00.195 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
-17:29:01.657 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
-17:29:03.828 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
-17:29:04.905 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
-17:29:49.914 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
-17:29:59.995 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
-17:30:05.070 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
-17:30:05.588 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown
-17:31:42.638 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
-
-17:31:42.923 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Base class started...
-17:31:45.562 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Chrome driver selected
-17:31:59.053 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on the login button
-17:32:00.824 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on forget password button
-17:32:03.007 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered email
-17:32:04.105 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on send verification button
-17:32:49.120 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Waiting for code verification
-17:32:59.207 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Code verified 
-17:33:04.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on continue in-between button
-17:33:06.408 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Entered new password
-17:33:08.533 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Confirm new password
-17:33:13.633 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Clicked on final continue button
-17:33:15.174 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - User sign up successfully...
-17:33:15.619 [main] INFO  com.p360.userdesktop.TestCases.TC_ForgetPassword - Driver shutdown
+17:57:45.568 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Base class started...
+17:57:47.965 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Chrome driver selected
+17:57:56.333 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver click on login button
+17:58:00.561 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Email entered
+17:58:01.711 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Passwrod entered
+17:58:02.780 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver clicked on login submit button
+17:58:17.930 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Clicked my Classes
+17:58:20.044 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Clicked register for Class
+17:58:27.191 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Date selected
+17:58:29.233 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Searching Register class button
+17:58:29.296 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Catch block:- no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()="Register Class"]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [68fe6d7c1447b7ac3dacdd5f13095162, findElement {using=xpath, value=//div[text()="Register Class"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JKL-MA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52879/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 68fe6d7c1447b7ac3dacdd5f13095162
+17:58:29.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Class registration not available
+17:58:29.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - chenge the date
+17:58:33.447 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - New date selected1
+17:58:33.447 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Searching Register class button
+17:58:33.525 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Class registration available
+17:58:47.657 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - clicked on Register for clas button
+17:58:49.683 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - clickBtnConfirmRegisteredClass
+17:58:49.810 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - confirm class registration
+17:58:54.865 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Class registration Done...
+17:58:55.454 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver shutdown

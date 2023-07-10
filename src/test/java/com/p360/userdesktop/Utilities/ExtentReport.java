@@ -76,6 +76,11 @@ public class ExtentReport implements ITestListener {
         {
         	extentTest.fail("Screenshot is below: "+extentTest.addScreenCaptureFromPath(screenshotpath));
         }
+        else
+        {
+        	System.out.println("Scrernshots path not found");
+        	extentTest.log(Status.FAIL, "Sreenshots path not found");
+        }
       
 	}
     

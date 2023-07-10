@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-07T17:31:42 IST" name="Suite" finished-at="2023-07-07T17:33:15 IST" duration-ms="92966">
+  <suite started-at="2023-07-10T17:57:45 IST" name="Suite" finished-at="2023-07-10T17:58:55 IST" duration-ms="70148">
     <groups>
     </groups>
-    <test started-at="2023-07-07T17:31:42 IST" name="P360 User Login" finished-at="2023-07-07T17:33:15 IST" duration-ms="92966">
-      <class name="com.p360.userdesktop.TestCases.TC_ForgetPassword">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.p360.userdesktop.TestCases.TC_ForgetPassword@6f2cb653]" started-at="2023-07-07T17:31:42 IST" name="setup" finished-at="2023-07-07T17:31:51 IST" duration-ms="8854" status="PASS">
+    <test started-at="2023-07-10T17:57:45 IST" name="P360 User Login" finished-at="2023-07-10T17:58:55 IST" duration-ms="70148">
+      <class name="com.p360.userdesktop.TestCases.TC_ClassRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.p360.userdesktop.TestCases.TC_ClassRegistration@6f2cb653]" started-at="2023-07-10T17:57:45 IST" name="setup" finished-at="2023-07-10T17:57:54 IST" duration-ms="8522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_ForgetPassword()[pri:1, instance:com.p360.userdesktop.TestCases.TC_ForgetPassword@6f2cb653]" started-at="2023-07-07T17:31:51 IST" name="test_ForgetPassword" finished-at="2023-07-07T17:33:15 IST" duration-ms="83409" status="PASS">
+        <test-method signature="test_ClassRegistration()[pri:1, instance:com.p360.userdesktop.TestCases.TC_ClassRegistration@6f2cb653]" started-at="2023-07-10T17:57:54 IST" name="test_ClassRegistration" finished-at="2023-07-10T17:58:54 IST" duration-ms="60793" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_ForgetPassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.p360.userdesktop.TestCases.TC_ForgetPassword@6f2cb653]" started-at="2023-07-07T17:33:15 IST" name="teardown" finished-at="2023-07-07T17:33:15 IST" duration-ms="416" status="PASS">
+        </test-method> <!-- test_ClassRegistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.p360.userdesktop.TestCases.TC_ClassRegistration@6f2cb653]" started-at="2023-07-10T17:58:54 IST" name="teardown" finished-at="2023-07-10T17:58:55 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.p360.userdesktop.TestCases.TC_ForgetPassword -->
+      </class> <!-- com.p360.userdesktop.TestCases.TC_ClassRegistration -->
     </test> <!-- P360 User Login -->
   </suite> <!-- Suite -->
 </testng-results>

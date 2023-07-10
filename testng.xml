@@ -14,9 +14,13 @@
 		
 	<!--	<class name="com.p360.userdesktop.TestCases.TC_SingUp"/>
     	 <class name="com.p360.userdesktop.TestCases.TC_Login"/> 
-      <class name="com.p360.userdesktop.TestCases.TC_Logout"/>	-->
-      <class name="com.p360.userdesktop.TestCases.TC_ForgetPassword"/> <!--  To run this first provide email and password in this class "TC_=ForgetPassword"-->
-        
+      <class name="com.p360.userdesktop.TestCases.TC_Logout"/>
+     <class name="com.p360.userdesktop.TestCases.TC_ForgetPassword"/>
+       <class name="com.p360.userdesktop.TestCases.TC_ForgetPassword"/>    	  --> 
+          <!--  To run this first provide email and password in this class "TC_=ForgetPassword"-->
+          
+           <class name="com.p360.userdesktop.TestCases.TC_ClassRegistration"/>  
+           
     </classes>
     
   </test> <!-- Test -->

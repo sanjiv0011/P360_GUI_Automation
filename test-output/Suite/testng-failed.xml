@@ -7,13 +7,13 @@
   <test thread-count="5" name="P360 User Login(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.p360.userdesktop.TestCases.TC_ForgetPassword">
+      <class name="com.p360.userdesktop.TestCases.TC_ClassRegistration3">
         <methods>
           <include name="setup"/>
-          <include name="test_ForgetPassword"/>
           <include name="teardown"/>
+          <include name="test_ClassRegistration"/>
         </methods>
-      </class> <!-- com.p360.userdesktop.TestCases.TC_ForgetPassword -->
+      </class> <!-- com.p360.userdesktop.TestCases.TC_ClassRegistration3 -->
     </classes>
   </test> <!-- P360 User Login(failed) -->
 </suite> <!-- Failed suite [Suite] -->

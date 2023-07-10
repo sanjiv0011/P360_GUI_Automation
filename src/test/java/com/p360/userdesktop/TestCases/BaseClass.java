@@ -13,6 +13,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -28,7 +29,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	
 	// logger to log the messages
-	public Logger logger = LogManager.getLogger(this.getClass());
+	public  Logger logger = LogManager.getLogger(this.getClass());
 	
 	
 	// to read the file from utilities.ReadConfigFiles
@@ -54,7 +55,12 @@ public class BaseClass {
 		if(br.equals("chrome"))
 		{
 			System.setProperty("webdriver.chromedriver",rcf.getChromePath());
+			
+			// for headless browsing
+			ChromeOptions option = new ChromeOptions();
+			option.addArguments("--headless=chrome");
 			driver = new ChromeDriver();
+			
 			logger.info("Chrome driver selected");
 		}
 		else if(br.equals("firefox"))
