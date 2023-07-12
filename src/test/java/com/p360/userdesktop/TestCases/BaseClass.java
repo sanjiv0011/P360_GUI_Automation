@@ -17,7 +17,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
@@ -58,7 +57,8 @@ public class BaseClass {
 			
 			// for headless browsing
 			ChromeOptions option = new ChromeOptions();
-			option.addArguments("--headless=chrome");
+			//option.addArguments("--headless=chrome");
+			//option.setExperimentalOption("debuggerAddress", "http://localhost:8888");
 			driver = new ChromeDriver();
 			
 			logger.info("Chrome driver selected");

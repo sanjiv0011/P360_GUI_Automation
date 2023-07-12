@@ -69,7 +69,7 @@ public class ExtentReport implements ITestListener {
       
         // to attach screen shot on the report
         String screenshotpath = System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+"_Screenshots" +".png";
-        System.out.println("++"+screenshotpath);
+        //System.out.println("++"+screenshotpath);
         File f = new File(screenshotpath);
         
         if(f.exists())
@@ -78,7 +78,7 @@ public class ExtentReport implements ITestListener {
         }
         else
         {
-        	System.out.println("Scrernshots path not found");
+        	System.out.println("I am from Extent-Report onTestFailure and calling methods name is: "+result.getName());
         	extentTest.log(Status.FAIL, "Sreenshots path not found");
         }
       

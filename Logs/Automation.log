@@ -1,32 +1,259 @@
-17:57:45.292 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+14:21:40.278 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
 
-17:57:45.568 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Base class started...
-17:57:47.965 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Chrome driver selected
-17:57:56.333 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver click on login button
-17:58:00.561 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Email entered
-17:58:01.711 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Passwrod entered
-17:58:02.780 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver clicked on login submit button
-17:58:17.930 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Clicked my Classes
-17:58:20.044 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Clicked register for Class
-17:58:27.191 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Date selected
-17:58:29.233 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Searching Register class button
-17:58:29.296 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Catch block:- no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()="Register Class"]"}
-  (Session info: chrome=114.0.5735.199)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68fe6d7c1447b7ac3dacdd5f13095162, findElement {using=xpath, value=//div[text()="Register Class"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\JKL-MA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52879/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68fe6d7c1447b7ac3dacdd5f13095162
-17:58:29.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Class registration not available
-17:58:29.296 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - chenge the date
-17:58:33.447 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - New date selected1
-17:58:33.447 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Searching Register class button
-17:58:33.525 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - Class registration available
-17:58:47.657 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - clicked on Register for clas button
-17:58:49.683 [main] INFO  com.p360.userdesktop.PageObject.PO_ClassRegistration - clickBtnConfirmRegisteredClass
-17:58:49.810 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - confirm class registration
-17:58:54.865 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Class registration Done...
-17:58:55.454 [main] INFO  com.p360.userdesktop.TestCases.TC_ClassRegistration - Driver shutdown
+14:21:40.533 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+14:21:42.888 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+14:21:57.234 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:22:07.355 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+14:22:08.505 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+14:22:09.636 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+14:22:19.642 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+14:22:24.664 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+14:22:24.787 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+14:22:29.973 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+14:22:34.086 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+14:22:39.412 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+14:22:39.413 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+14:22:44.500 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:22:44.548 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:22:44.681 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+14:22:44.681 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+14:22:46.811 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+14:22:48.954 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+14:22:56.203 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:23:23.113 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+14:27:39.552 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+14:27:39.988 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+14:27:42.776 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+14:27:57.060 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:28:07.149 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+14:28:08.292 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+14:28:09.401 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+14:28:19.405 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+14:28:24.427 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+14:28:24.630 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+14:28:29.739 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+14:28:33.843 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+14:28:39.120 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+14:28:39.126 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+14:28:44.166 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:28:44.197 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:28:44.262 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+14:28:44.263 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+14:28:46.371 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+14:28:48.496 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+14:28:48.496 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Inside confirm change membership method
+14:28:55.715 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:29:17.924 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+14:32:35.651 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+14:32:35.890 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+14:32:38.134 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+14:32:52.211 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:33:02.389 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+14:33:03.541 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+14:33:04.658 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+14:33:14.675 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+14:33:19.700 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+14:33:19.935 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+14:33:25.079 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+14:33:29.233 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+14:33:34.655 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+14:33:34.655 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+14:33:39.738 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:33:39.801 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:33:39.934 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+14:33:39.934 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+14:33:42.042 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+14:33:44.191 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+14:33:51.365 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:34:18.370 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+14:44:39.626 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+14:44:39.903 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+14:44:42.217 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+14:44:56.323 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:45:06.501 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+14:45:07.651 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+14:45:08.784 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+14:45:18.787 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+14:45:23.801 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+14:45:24.006 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+14:45:29.181 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+14:45:33.283 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+14:45:38.581 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+14:45:38.581 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+14:45:43.654 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:45:43.685 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+14:45:43.759 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+14:45:43.760 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+14:45:45.884 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+14:45:48.045 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+14:45:55.232 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+14:46:21.973 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:02:55.908 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:02:56.192 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:02:58.797 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:03:14.709 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:03:24.837 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:03:26.061 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:03:27.223 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:03:37.233 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:03:42.247 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:03:42.417 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:03:47.612 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:03:51.704 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:03:57.096 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+15:03:57.096 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:04:02.182 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:04:02.213 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:04:02.276 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+15:04:02.276 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+15:04:04.372 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+15:04:06.464 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+15:04:13.634 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:04:40.771 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:05:44.282 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:05:44.582 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:05:47.034 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:06:01.316 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:06:11.462 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:06:12.597 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:06:13.655 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:06:23.664 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:06:28.685 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:06:28.810 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:06:33.947 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:06:38.069 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:06:43.355 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+15:06:43.355 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:06:48.419 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:06:48.450 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:06:48.530 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+15:06:48.530 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+15:06:50.682 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+15:06:52.779 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+15:07:01.133 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:07:28.249 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:08:18.045 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:08:18.346 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:08:20.828 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:08:34.967 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:08:45.131 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:08:46.295 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:08:47.399 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:08:57.418 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:09:02.440 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:09:02.592 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:09:07.749 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:09:11.834 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:09:17.191 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+15:09:17.191 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:09:22.264 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:09:22.312 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:09:22.411 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+15:09:22.411 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+15:09:24.572 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+15:09:26.695 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+15:09:34.911 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:10:01.902 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:15:31.391 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:15:31.676 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:15:34.150 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:15:48.707 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:15:58.816 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:15:59.961 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:16:01.055 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:16:36.767 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:16:37.050 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:16:39.480 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:16:54.130 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:17:04.312 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:17:05.449 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:17:06.571 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:17:16.583 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:17:21.610 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:17:21.814 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:20:02.238 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:20:02.540 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:20:04.798 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:20:19.351 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:20:29.482 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:20:30.607 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:20:31.752 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:20:41.760 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:20:46.775 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:20:46.921 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:20:52.063 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:20:56.183 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:21:01.311 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name NOT selected
+15:21:01.312 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:21:06.375 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:21:06.422 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:21:06.469 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:21:06.516 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:21:32.575 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:23:15.439 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:23:15.944 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:23:18.246 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:23:33.076 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:23:43.182 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:23:44.319 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:23:45.434 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:23:55.446 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:24:00.473 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:24:00.642 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:24:05.815 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:24:09.901 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:24:15.185 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+15:24:15.186 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:24:20.265 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:24:20.311 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:24:20.406 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+15:24:20.406 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+15:24:22.473 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+15:24:24.621 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+15:24:31.743 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:24:58.561 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown
+15:25:15.809 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Sanjiv_QA\Eclipse Project\P360_GUI_User_Automation\testng.xml
+
+15:25:16.055 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Base class started...
+15:25:18.283 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Chrome driver selected
+15:25:32.702 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:25:42.832 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Enteterd email
+15:25:43.949 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - Entered password
+15:25:45.086 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login submit button
+15:25:55.106 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Login done
+15:26:00.124 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Startd PO_ManageMemberShip
+15:26:00.274 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked membership menu butotn
+15:26:05.383 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on maange membership button
+15:26:09.511 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the dropdown button of category
+15:26:14.792 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Category name selected
+15:26:14.794 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected the category
+15:26:19.835 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:26:19.866 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - Thread wating
+15:26:19.940 [main] INFO  com.p360.userdesktop.PageObject.PO_ManageMemberShip - packageName name selected 
+15:26:19.941 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Selected package from the packages grid
+15:26:22.028 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the check box
+15:26:24.224 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Clicked on the change membership button
+15:26:31.395 [main] INFO  com.p360.userdesktop.PageObject.PO_Login - clicke on login button
+15:26:58.174 [main] INFO  com.p360.userdesktop.TestCases.TC_ManageMembership - Driver shutdown

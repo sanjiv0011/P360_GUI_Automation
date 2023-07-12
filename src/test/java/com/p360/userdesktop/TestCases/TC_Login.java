@@ -2,6 +2,7 @@ package com.p360.userdesktop.TestCases;
 
 import java.io.IOException;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.p360.userdesktop.PageObject.PO_Login;
@@ -10,9 +11,18 @@ import com.p360.userdesktop.PageObject.PO_Logout;
 
 public class TC_Login extends BaseClass {
 	
+	public TC_Login()
+	{
+		super();
+	}
+	
+	PO_Login lgn;
 	//public String screenshotpath; // from base class
 	
-	@Test(priority = 1)
+	
+	/*
+	// Normal way to login
+	//@Test(priority = 1)
 	public void test_Login() throws InterruptedException, IOException
 	{
 		//driver.get(baseUrl); // it set in base class 
@@ -41,6 +51,41 @@ public class TC_Login extends BaseClass {
 		Thread.sleep(15000);
 		//driver.wait();
 	
+		
+		if(driver.getPageSource().contains("Welcome"))
+		{
+			Thread.sleep(2000);
+			Assert.assertTrue(true);
+			logger.info("Login success...");
+		}
+		else
+		{
+			Thread.sleep(2000);
+			logger.info("Start capturing screenshots");
+			captureScreen(driver,"test_Login");  // from base class
+			logger.info("Screenshot taken");
+			Assert.assertTrue(false);
+			logger.info("Login failed!!!");
+		}
+	}
+	
+	*/
+	
+	
+	
+	
+	
+	// Compromised code 
+	@Test(priority = 2)
+	public void test_Login() throws InterruptedException, IOException
+	{
+		//driver.get(baseUrl); // it set in base class 
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		lgn = new PO_Login(driver);
+		
+		lgn.login(email, password);
 		
 		if(driver.getPageSource().contains("Welcome"))
 		{
